@@ -33,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/bio">Bio</Link>
               <Link target="_blank" href="">
               </Link>
+              <Link href="/contact">Contact</Link>
               <TripleBar />
             </AppShellHeader>
             <AppShellMain></AppShellMain>

@@ -18,7 +18,7 @@ const links = [
 
 export default function SiteHeader() {
   const [opened, { toggle }] = useDisclosure(false);
-  const [active, setActive] = useState(links[0].link);
+  const [active, setActive] = useState('/');
 
   const items = links.map((link) => (
     <Link

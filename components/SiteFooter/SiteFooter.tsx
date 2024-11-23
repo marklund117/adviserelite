@@ -13,7 +13,7 @@ export default function SiteFooter() {
             <p className="mb-3">Follow us on <a className="underline" target="_blank" href="https://www.linkedin.com/company/adviserelite/">Linkedin</a></p>
             <p className="mb-3">Copyright &copy;2024 Adviser Elite, LLC. All rights reserved.</p>
             <p className="mb-3">
-                <a className="underline">Privacy Policy</a>
+                <a href="/privacy" className="underline">Privacy Policy</a>
                 <span className="ml-1 mr-1"> | </span>
                 <a className="underline">Terms of Use</a>
                 <span className="ml-1 mr-1"> | </span>

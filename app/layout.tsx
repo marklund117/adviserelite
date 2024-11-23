@@ -6,8 +6,7 @@ import React from 'react';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import { AppShell, AppShellHeader, AppShellMain, AppShellFooter } from '@mantine/core'
 import { useMediaQuery } from '@mantine/hooks';
-import Link from 'next/link'
-import TripleBar from '../components/TripleBar/TripleBar'
+import SiteHeader from '../components/SiteHeader/SiteHeader';
 
 export const metadata = {
   title: 'Adviser Elite',
@@ -24,20 +23,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <MantineProvider>
           <AppShell header={{height: 56}}>
-            <AppShellHeader className="bg-slate-600">
-              <Link href="/">
-              <img className="max-h-[56px]" src="blacklogo.png" alt="logo"></img>
-              </Link>
-              <Link href="/services">Services</Link>
-              <Link href="/proposals">Proposals</Link>
-              <Link href="/bio">Bio</Link>
-              <Link target="_blank" href="">
-              </Link>
-              <Link href="/contact">Contact</Link>
-              <TripleBar />
+            <AppShellHeader>
+              <SiteHeader />
             </AppShellHeader>
-            <AppShellMain></AppShellMain>
-            <AppShellFooter></AppShellFooter>
+            <AppShellMain>
+              {children}
+            </AppShellMain>
+            <AppShellFooter>
+            </AppShellFooter>
           </AppShell>
         </MantineProvider>
       </body>

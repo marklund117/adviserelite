@@ -7,7 +7,7 @@ import { useDisclosure } from '@mantine/hooks';
 import classes from './HeaderSimple.module.css';
 import Link from 'next/link'
 
-// basic links - does not include linkedin
+// basic links - does not include linkedin yeah
 const links = [
   { link: '/services', label: 'Services' },
   { link: '/proposals', label: 'Proposals' },

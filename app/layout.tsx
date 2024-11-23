@@ -6,7 +6,8 @@ import React from 'react';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import { AppShell, AppShellHeader, AppShellMain, AppShellFooter } from '@mantine/core'
 import { useMediaQuery } from '@mantine/hooks';
-import SiteHeader from '../components/SiteHeader/SiteHeader';
+import SiteHeader from '../components/SiteHeader/SiteHeader'
+import SiteFooter from '../components/SiteFooter/SiteFooter'
 
 export const metadata = {
   title: 'Adviser Elite',
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </AppShellHeader>
             <AppShellMain>
               {children}
+              <SiteFooter />
             </AppShellMain>
             <AppShellFooter>
             </AppShellFooter>

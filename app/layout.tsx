@@ -20,6 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" suppressHydrationWarning>
       <head>
         <ColorSchemeScript />
+        <link rel="icon" href="icon.ico" />
       </head>
       <body>
         <MantineProvider>

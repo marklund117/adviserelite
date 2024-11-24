@@ -12,6 +12,7 @@ const links = [
   { link: '/services', label: 'Services' },
   { link: '/proposals', label: 'Proposals' },
   { link: '/bio', label: 'Bio' },
+  { link: '/contact', label: 'Contact' },
 ];
 
 // header component

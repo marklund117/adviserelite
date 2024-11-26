@@ -54,7 +54,7 @@ export default function SiteHeader() {
 
   return (
     <header className={classes.header}>
-      <Container fluid className={classes.inner}>
+      <Container size="xl" className={classes.inner}>
         {logo}
         <Group className="justify-self-end" gap={5} visibleFrom="xs">
           {items}

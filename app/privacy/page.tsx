@@ -2,9 +2,13 @@
 // import tailwind global CSS
 import '../styles/globals.css'
 
+// use a container too
+import { Container}  from '@mantine/core'
+
 // here's the main dish
 export default function Privacy() {
-  return <div className="p-4 min-h-[100vh]">
+  return <div className="min-h-[100vh] mt-10 mb-10">
+    <Container size="xl">
     <h1 className="font-bold mb-1 text-lg">PRIVACY POLICY</h1>
     <p>This policy describes how ADVISER ELITE handles your personal information. It applies across all ADVISER ELITE’s platforms, related sites, event related properties, and physical signup forms (otherwise known as the platforms).</p>
     <h1 className="font-medium mb-1 mt-3">What Personal Information Do We Collect?</h1>
@@ -93,5 +97,6 @@ export default function Privacy() {
     <p>We will need to change this policy from time to time to make sure it stays up to date with the latest legal requirements and any changes to our privacy management practices. When we do change the policy, we will make sure to notify you about such changes, where required. A copy of the latest version of this policy will always be available on this page.</p>
     <h1 className="font-medium mb-1 mt-3">How Can You Contact Us?</h1>
     <p>If you have any questions about our privacy policy or practices, please contact us in writing at <strong className="font-medium">privacy@ADVISERELITE.com</strong>.</p>
-  </div>
+    </Container>
+    </div>
 }

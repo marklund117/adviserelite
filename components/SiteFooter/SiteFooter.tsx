@@ -15,7 +15,7 @@ export default function SiteFooter() {
             <p className="mb-3">
                 <a href="/privacy" className="underline">Privacy Policy</a>
                 <span className="ml-1 mr-1"> | </span>
-                <a className="underline">Terms of Use</a>
+                <a href="/terms" className="underline">Terms of Use</a>
                 <span className="ml-1 mr-1"> | </span>
                 <a className="underline">Disclaimers</a>
             </p>

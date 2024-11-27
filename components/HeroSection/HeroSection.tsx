@@ -4,7 +4,7 @@ import { BackgroundImage, Button, Container, Overlay, Text, Title, Center } from
 
 export default function HeroSection() {
   return (
-    <div className="relative z-1 h-[100vh] flex flex-col align-middle justify-around">
+    <div className="relative z-1 h-[100vh] flex flex-col align-middle sm:justify-around">
       <BackgroundImage src="greyscalebanner.png" className="absolute inset-0 w-full h-[100vh] object-cover">
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       </BackgroundImage>

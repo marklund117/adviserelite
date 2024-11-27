@@ -32,7 +32,7 @@ export default function ServiceMenu () {
         <Card key={service.title} shadow="md" radius="md" className="bg-white" padding="md">
             <h2 className="text-blue-900 text-xl mb-[10px]">{service.title}</h2>
             <p>{service.description}</p>
-            <Button w="240" mt="20" size="lg">Learn More</Button>
+            <Button mt="20" size="lg">Learn More</Button>
         </Card>
     ))
 

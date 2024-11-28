@@ -16,9 +16,11 @@ export default function HeroSection() {
         <p className="text-[#dddddd] text-[20px] mt-4 mb-4">Navigate your possibilities &#xb7; Unlock your potential &#xb7; Achieve your goals</p>
       </Container>
       <Container size="xl">
+        <a href="/services">
         <Button w="240" m="20" size="lg">
             Explore Services
         </Button>
+        </a>
         <Button w="240" m="20" size="lg">
             Request a Proposal
         </Button>

@@ -17,7 +17,7 @@ export default function SiteFooter() {
                 <span className="ml-1 mr-1"> | </span>
                 <a href="/terms" className="underline">Terms of Use</a>
                 <span className="ml-1 mr-1"> | </span>
-                <a className="underline">Disclaimers</a>
+                <a href="/disclaimers" className="underline">Disclaimers</a>
             </p>
             <p className="mb-3 text-xs">
                 <span>Design and development by </span>

@@ -5,6 +5,8 @@ import {
     Group,
     SimpleGrid,
     Button,
+    BackgroundImage,
+    Center,
 } from '@mantine/core'
 import { link } from 'fs'
 
@@ -44,12 +46,21 @@ export default function ServiceMenu () {
     ))
 
     return (
-        <Container size="xl">
-            <h1 className="text-[40px] text-center pt-11">Services</h1>
-            <SimpleGrid cols={{ base: 1, md: 2, lg: 4 }} spacing="xl" mt={50}>
+    <div className="relative z-1 h-[100vh] flex flex-col align-middle sm:justify-around">
+    <BackgroundImage src="greyscalebanner.png" className="absolute inset-0 w-full h-[150vh] sm:h-[140vh] md:h-[130vh] lg:h-[100vh] object-cover">
+        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+    </BackgroundImage>
+    <Center p="xl" className="relative flex flex-col text-center">
+    <Container size="xl">
+        <h1 className="text-white text-[40px] font-medium">
+            Services for every need
+        </h1>
+        <SimpleGrid cols={{ base: 1, md: 2, lg: 4 }} spacing="xl" mt={50}>
                 {services}
-            </SimpleGrid>
-        </Container>
+        </SimpleGrid>
+    </Container>
+    </Center>
+    </div>
     )
 }
 

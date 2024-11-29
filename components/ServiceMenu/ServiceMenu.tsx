@@ -55,7 +55,7 @@ export default function ServiceMenu () {
         <h1 className="text-white text-[40px] font-medium">
             Services for every need
         </h1>
-        <SimpleGrid cols={{ base: 1, md: 2, lg: 4 }} spacing="xl" mt={50}>
+        <SimpleGrid cols={{ base: 1, sm: 2, lg: 4 }} spacing="xl" mt={50}>
                 {services}
         </SimpleGrid>
     </Container>

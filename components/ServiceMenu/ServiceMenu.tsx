@@ -18,7 +18,7 @@ const data = [
     {
         title: 'C-suite executive coaching',
         description: 'This is an example description. Here is some more text to fill space. Wow very cool.',
-        link: '/strategic',
+        link: '/csuite',
     },
     {
         title: 'Breakthrough sessions',

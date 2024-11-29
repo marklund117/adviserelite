@@ -35,10 +35,10 @@ const data = [
 export default function ServiceMenu () {
     const services = data.map((service) => (
         <Card key={service.title} shadow="md" radius="md" className="bg-white" padding="md">
-            <h2 className="text-blue-900 text-xl mb-[10px]">{service.title}</h2>
+            <h2 className="text-[#0079be] font-medium text-xl mb-[10px]">{service.title}</h2>
             <p>{service.description}</p>
             <a href={service.link}>
-            <Button fullWidth mt="20" size="lg">Learn More</Button>
+            <Button bg="#0079be" fullWidth mt="20" size="lg">Learn More</Button>
             </a>
         </Card>
     ))

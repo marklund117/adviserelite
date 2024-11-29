@@ -17,11 +17,11 @@ export default function HeroSection() {
       </Container>
       <Container size="xl">
         <a href="/services">
-        <Button w="240" m="20" size="lg">
+        <Button bg="#0079be" w="240" m="20" size="lg">
             Explore Services
         </Button>
         </a>
-        <Button w="240" m="20" size="lg">
+        <Button bg="#0079be" w="240" m="20" size="lg">
             Request a Proposal
         </Button>
       </Container>

@@ -21,16 +21,31 @@ export default function Bio() {
         <p className="mb-1 mt-3">Scott respects the time leaders invest in their development. He maximizes their return on that investment by helping them simultaneously improve their personal well-being while also applying new mindsets and behaviors as they work on their key business priorities.</p>
         <p className="mb-1 mt-3">Scott is a PCC certified coach through the International Coaching Federation (ICF) and the NeuroLeadership Institute (NLI). He is also Hogan 360 Assessment Certified.</p>
         <p className="mb-1 mt-3">In his personal life, Scott is married and has four young adult children. He resides in the Western U.S. and enjoys family, fitness, photography, and continuous learning.</p>
-        <div className="mb-10">
+        <div className="mb-3">
             <h1 className="text-[20px] mb-1 mt-3 text-slate-600">Client Impact</h1>
             <hr className="mb-1 mt-1"></hr>
             <p className="text-[#0079be] italic mb-1 mt-3">"Working with Scott led to my best year of personal growth and effectiveness. I’ve become a stronger more assertive leader.”</p>
             <p className="text-[#0079be] italic mb-1 mt-3">“Scott changed the way I think about solving business challenges.  He is truly one of best strategists and problem solvers I know.”</p>
-            <p className="text-[#0079be] italic mb-1 mt-3"></p>
-            <p className="text-[#0079be] italic mb-1 mt-3"></p>
-            <p className="text-[#0079be] italic mb-1 mt-3"></p>
-            <p className="text-[#0079be] italic mb-1 mt-3"></p>
-            <p className="text-[#0079be] italic mb-1 mt-3"></p>
+            <p className="text-[#0079be] italic mb-1 mt-3">“Scott has an amazing ability to listen and ask the right questions. The coaching experience with him significantly shifted my performance as a leader and exceeded my expectations.”</p>
+            <p className="text-[#0079be] italic mb-1 mt-3">“Scott supported me in navigating several critical discussions with my executive team. I’ve learned to better utilize strategic frameworks in my leadership decision making.”</p>
+            <p className="text-[#0079be] italic mb-1 mt-3">“Scott’s coaching strengthened my leadership capabilities and resulted in increased engagement from my team.”</p>
+            <p className="text-[#0079be] italic mb-1 mt-3">“Scott brings strategic aptitude, business transformation know-how, and an ability to solve complex problems with creative, out-of-the-box thinking.”</p>
+            <p className="text-[#0079be] italic mb-1 mt-3">“Scott helped me create a strategy to access untapped potential in my team.”</p>
         </div>
+        <div className="mb-3">
+            <h1 className="text-[20px] mb-1 mt-3 text-slate-600">Representative Clients</h1>
+            <hr className="mb-1 mt-1"></hr>
+            <p className="mb-1 mt-3">Scott has advised and coached top executives and leadership teams (e.g., C-suite, EVPs, SVPs, VPs) at Fortune 500 companies and innovative world-class organizations across the Tech, Finance, Healthcare, and Services industries. Representative clients include: AB Bernstein, Allergan, AMD, Avery Dennison, CDW, Cisco, Cohen & Company, Cushman & Wakefield, Dell Technologies, Deloitte, eBay, ESI, General Motors, Hackensack Meridian Health, Ingram Micro, Intel, Lantronix, Lattice Semiconductor, Mercato Partners, Microsoft, NCR, NetApp, NRP Group, P&G, Qualcomm, Salesloft, Sequoia Financial Group, Takeda,  T-Mobile, Vanguard, Visa, VMware, Western Digital, and Yahoo among others.</p>
+          </div>
+        <div className="mb-10">
+            <h1 className="text-[20px] mb-1 mt-3 text-slate-600">Representative Engagements</h1>
+            <hr className="mb-1 mt-1"></hr>
+        </div>
+        <Center className="flex flex-col md:flex-row mb-10">
+        <a href="/Scott_Lund_Executive_Coach_Bio_2024.pdf" target="_blank">
+        <Button w="300" bg="#0079be" m="20" size="lg">Download full bio (PDF)</Button>
+        </a>
+        <Button w="300" bg="#0079be" m="20" size="lg">Request a service proposal</Button>
+        </Center>
     </Container>
 }

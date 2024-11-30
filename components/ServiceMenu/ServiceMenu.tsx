@@ -30,7 +30,7 @@ const data = [
     {
         title: 'Hybrid and custom services',
         description: 'This is an example description. Here is some more text to fill space. Wow very cool.',
-        link: '/strategic',
+        link: '/custom',
     }
 ]
 

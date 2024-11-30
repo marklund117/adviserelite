@@ -40,6 +40,20 @@ export default function Bio() {
         <div className="mb-10">
             <h1 className="text-[20px] mb-1 mt-3 text-slate-600">Representative Engagements</h1>
             <hr className="mb-1 mt-1"></hr>
+            <ul className="list-disc ml-5 mt-3">
+                <li className="mb-1"><span className="font-medium">Multiple C-level / Senior Leadership Teams</span> - Facilitation of successful strategy and transformation offsites resulting in clear priorities, team alignment, and execution plans</li>
+                <li className="mb-1"><span className="font-medium">CEO, International Professional Services Company</span> – Mindset shifts expanded capacity for strategic leadership, empathetic leadership, and proactive development of C-suite direct reports</li>
+                <li className="mb-1"><span className="font-medium">CIO, $5B Healthcare Company</span> - Improved relationships with Board of Directors and more strategic leadership of key IT function transformation initiatives</li>
+                <li className="mb-1"><span className="font-medium">CFO, $1B Real Estate Company</span> – More influential relationships with C-suite peers and more strategic and empathetic leadership of Finance & Accounting teams</li>
+                <li className="mb-1"><span className="font-medium">CIO, Leading International Professional Services Firm</span> – Enabled smooth, successful transition into new role, establishment of functional vision, and integration into the C-suite leadership team</li>
+                <li className="mb-1"><span className="font-medium">CHRO, Leading North American Accounting & Advisory Firm</span> – Established sustainable work-life balance strategies, improved delegation, and restructured time allocation to maximize their impact</li>
+                <li className="mb-1"><span className="font-medium">CFO, Leading Global Professional Services Firm</span> – Strategically refocused time allocation on highest-impact activities and shifted mindset for more sustainable approach to high-pressure role</li>
+                <li className="mb-1"><span className="font-medium">Head of Latin America, $7B Financial Services Company</span> – More people-centered, empathetic leadership mindset and more strategic management of C-suite relationships</li>
+                <li className="mb-1"><span className="font-medium">SVP of Marketing, $3B Software Company</span> – Increased personal confidence and quality of interactions with CEO and Board of Directors</li>
+                <li className="mb-1"><span className="font-medium">SVP of Product Development, $1B Software Company</span> – Successful onboarding and integration into new role via strategic visioning and enhanced peer-level networking</li>
+                <li className="mb-1"><span className="font-medium">SVP of Behavioral Health, $5B Healthcare Company</span> – Improved navigation of interactions with C-suite executives and clarification of strategic objectives</li>
+                <li className="mb-1"><span className="font-medium">Head of B2B CX, $7B Financial Services Company</span> – Mindset shift to more assertive leadership style, increased visibility with C-suite executives, and increased team engagement</li>
+            </ul>
         </div>
         <Center className="flex flex-col md:flex-row mb-10">
         <a href="/Scott_Lund_Executive_Coach_Bio_2024.pdf" target="_blank">

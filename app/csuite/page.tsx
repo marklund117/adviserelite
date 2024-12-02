@@ -30,8 +30,12 @@ export default function Csuite() {
         <p className="mb-1 mt-3">Note: If helpful to your unique situation, we can also conduct an interview-based 360-degree assessment (by interviewing key stakeholders in your professional and/or personal life).  Investment levels vary depending on the number of stakeholders interviewed.  All 360-degree assessments include a custom report and a debrief of the report.</p>
         <p className="mb-5 mt-3">Coaching services are provided through engagement contracts and/or retainer arrangements with varying monthly investment levels.</p>
         <Center className="flex flex-col md:flex-row">
+        <a href="/proposals">
         <Button w="300" bg="#0079be" m="20" size="lg">Request a service proposal</Button>
+        </a>
+        <a href="/contact">
         <Button w="300" bg="#0079be" m="20" size="lg">Contact Us</Button>
+        </a>
         </Center>
         <div className="mb-10">
             <h1 className="text-[20px] mb-1 mt-3 text-slate-600">Testimonials</h1>

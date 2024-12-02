@@ -6,8 +6,12 @@ export default function Custom() {
         <p className="mb-1 mt-3">Have unique goals or service needs?  Scott can assist you in designing a custom solution that is a fusion of strategic advisory and C-suite coaching services and will be personalized to your specific needs and preferences.</p>
         <p className="mb-1 mt-3">Hybrid and custom services with Scott are provided through a retainer arrangement with investment levels starting at $3K per month and typically have a 3-month minimum engagement length.</p>
         <Center className="flex flex-col md:flex-row">
+        <a href="/proposals">
         <Button w="300" bg="#0079be" m="20" size="lg">Request a service proposal</Button>
+        </a>
+        <a href="/contact">
         <Button w="300" bg="#0079be" m="20" size="lg">Contact Us</Button>
+        </a>
         </Center>
         <div className="mb-10">
             <h1 className="text-[20px] mb-1 mt-3 text-slate-600">Testimonials</h1>

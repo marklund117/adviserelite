@@ -9,8 +9,12 @@ export default function Breakthrough() {
         <p className="mb-1 mt-3">Pending Scott’s availability, sessions can be scheduled quickly to address urgent needs, with longer sessions typically requiring more lead time.  There will also be pre-work assigned by Scott for all participants (including Scott) to ensure your session’s success.</p>
         <p className="mb-1 mt-3">Session lengths range from 1-6 hours with varying investment levels.</p>
         <Center className="flex flex-col md:flex-row">
+        <a href="/proposals">
         <Button w="300" bg="#0079be" m="20" size="lg">Request a service proposal</Button>
+        </a>
+        <a href="/contact">
         <Button w="300" bg="#0079be" m="20" size="lg">Contact Us</Button>
+        </a>
         </Center>
         <div className="mb-10">
             <h1 className="text-[20px] mb-1 mt-3 text-slate-600">Testimonials</h1>

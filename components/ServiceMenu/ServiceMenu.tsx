@@ -14,29 +14,29 @@ import { link } from 'fs'
 const data = [
     {
         title: 'Strategic advisory services',
-        description: 'This is an example description. Here is some more text to fill space. Wow very cool.',
+        description: 'Strategy for any focus area, from personal growth and wellbeing to corporate tactics and innovation.',
         link: '/strategic',
     },
     {
         title: 'C-suite executive coaching',
-        description: 'This is an example description. Here is some more text to fill space. Wow very cool.',
+        description: 'Accelerate your career with world-class coaching, customized for your goals and aspirations.',
         link: '/csuite',
     },
     {
         title: 'Breakthrough sessions',
-        description: 'This is an example description. Here is some more text to fill space. Wow very cool.',
+        description: 'Tackle upcoming challenges with a transformative one-off session tailored to your current situation.',
         link: '/breakthrough',
     },
     {
         title: 'Hybrid and custom services',
-        description: 'This is an example description. Here is some more text to fill space. Wow very cool.',
+        description: 'Design a custom solution personalized to your specific needs and preferences.',
         link: '/custom',
     }
 ]
 
 export default function ServiceMenu () {
     const services = data.map((service) => (
-        <Card key={service.title} shadow="md" radius="md" className="bg-white" padding="md">
+        <Card key={service.title} shadow="md" radius="md" className="bg-white flex flex-col justify-between" padding="md">
             <h2 className="text-[#0079be] font-medium text-xl mb-[10px]">{service.title}</h2>
             <p>{service.description}</p>
             <a href={service.link}>

@@ -19,8 +19,12 @@ export default function Strategic() {
         <p className="mb-1 mt-3">Each month of a strategic advisory engagement includes two or three pre-scheduled 50-minute one-on-one sessions via video or telephone (your choice) along with unlimited email and text support (with a 24-hour response time) between sessions. A 3-hour breakthrough session is included in the first month of service and then every subsequent three months (to support quarterly and annual strategic planning and performance assessment).  I.e., a 3-month engagement will include a breakthrough session at the beginning and end of the three months.</p>
         <p className="mb-5 mt-3">Available strategic advisory engagement lengths are 3 months, 6 months, and 12 months.  Strategic advisory services are provided through a retainer arrangement with varying monthly investment levels.</p>
         <Center className="flex flex-col md:flex-row">
+        <a href="/proposals">
         <Button w="300" bg="#0079be" m="20" size="lg">Request a service proposal</Button>
+        </a>
+        <a href="/contact">
         <Button w="300" bg="#0079be" m="20" size="lg">Contact Us</Button>
+        </a>
         </Center>
         <div className="mb-10">
             <h1 className="text-[20px] mb-1 mt-3 text-slate-600">Testimonials</h1>

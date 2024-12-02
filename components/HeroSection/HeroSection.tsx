@@ -21,9 +21,11 @@ export default function HeroSection() {
             Explore Services
         </Button>
         </a>
+        <a href="/proposals">
         <Button bg="#0079be" w="240" m="20" size="lg">
             Request a Proposal
         </Button>
+        </a>
       </Container>
       </Center>
     </div>

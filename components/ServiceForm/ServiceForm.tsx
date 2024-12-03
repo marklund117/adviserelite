@@ -72,7 +72,7 @@ const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         <Textarea className="mt-3" minRows={6} autosize withAsterisk label="What specific results are you looking to accomplish by working with an adviser and/or coach?" name="desired_results" />
         <Select className="mt-3" withAsterisk label="How committed are you to accomplishing these results on a 1-10 scale (with 10 being 100% committed)?" placeholder="Select an option" data={['10', '9', '8', '7', '6', 'Not very committed.']} name="commitment" value={commitment} onChange={(val) => setCommitment(val)}/>
         <Select className="mt-3" withAsterisk label="At this time, are you able to make an investment in yourself and the service of interest?" placeholder="Select an option" data={['Yes', 'No']} name="investment" value={investment} onChange={(val) => setInvestment(val)}/>
-        <Select className="mt-3" withAsterisk label="Will your company be sponsoring your work with an adviser and/or coach?" placeholder="Select an option" data={['Yes', 'No', 'Maybe']} name="sponsored" onChange={(val) => setSponsored(val)}/>
+        <Select className="mt-3" withAsterisk label="Will your company be sponsoring your work with an adviser and/or coach?" placeholder="Select an option" data={['Yes', 'No', 'Maybe']} name="sponsored" value={sponsored} onChange={(val) => setSponsored(val)}/>
         <Textarea className="mt-3" placeholder="This section is optional." minRows={3} autosize label="Is there anything else you would like Scott to know?" name="extras" />
         <Button type="submit" fullWidth bg="#0079be" mt="20" size="lg">Submit Your Request</Button>
     </form>

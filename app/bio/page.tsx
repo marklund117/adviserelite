@@ -13,7 +13,9 @@ export default function Bio() {
         <a href="/Scott_Lund_Executive_Coach_Bio_2024.pdf" target="_blank">
         <Button w="300" bg="#0079be" m="20" size="lg">Download full bio (PDF)</Button>
         </a>
+        <a href="/proposals">
         <Button w="300" bg="#0079be" m="20" size="lg">Request a service proposal</Button>
+        </a>
         </Center>
         <p className="mb-1 mt-3">Elevating leaders and lives through coaching is Scott’s passion and purpose. He believes in each leader’s potential for growth and greatness. To fully unlock that potential, his coaching is holistic, strategic, and customized to individual goals and contexts. His coaching goes beyond improving behaviors to identifying and transforming the personal mindsets underlying desired behaviors.</p>
         <p className="mb-1 mt-3">Scott has coached and advised hundreds of senior leaders in achieving extraordinary results. He serves senior executives (C-suite to Director) and teams at elite organizations across multiple industries: Tech, Finance, Healthcare, Services, Private Equity, and other industries. Scott builds strong, collaborative relationships with leaders of all cultural and professional backgrounds by connecting at a human level. He does this with empathy, honesty, curiosity, and a sense of humor.</p>
@@ -59,7 +61,9 @@ export default function Bio() {
         <a href="/Scott_Lund_Executive_Coach_Bio_2024.pdf" target="_blank">
         <Button w="300" bg="#0079be" m="20" size="lg">Download full bio (PDF)</Button>
         </a>
+        <a href="/proposals">
         <Button w="300" bg="#0079be" m="20" size="lg">Request a service proposal</Button>
+        </a>
         </Center>
     </Container>
 }

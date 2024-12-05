@@ -10,7 +10,7 @@ export default function SiteFooter() {
         <footer className="flex flex-col items-center p-4 bg-[#111111] text-[#EEEEEE] text-xs md:text-base">
             <img className="h-[32px] mb-6" src='whitelogo.png'/>
             <p className="mb-3">Contact us via email at <a className="underline" href="mailto:info@adviserelite.com">info@adviserelite.com</a></p>
-            <p className="mb-3">Follow us on <a className="underline" target="_blank" href="https://www.linkedin.com/company/adviserelite/">Linkedin</a></p>
+            <p className="mb-3">Follow us on <a className="underline" target="_blank" href="https://www.linkedin.com/in/scottlund1/">Linkedin</a></p>
             <p className="mb-3">Copyright &copy;2024 Adviser Elite, LLC. All rights reserved.</p>
             <p className="mb-3">
                 <a href="/privacy" className="underline">Privacy Policy</a>
